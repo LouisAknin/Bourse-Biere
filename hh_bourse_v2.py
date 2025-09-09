@@ -244,8 +244,8 @@ if __name__ == "__main__":
         l_label[i].pack(side=tk.BOTTOM, fill=tk.X)
     
     # -------- Pack footer (AiCommenter)
-    footer = tk.Label(root, text="Données en cours...", font=("Arial", 14),
-                    bg="black", fg="white",wraplength=800, justify="center")
+    footer = tk.Label(root, text="Données en cours...", font=("Arial", 18),
+                    bg="black", fg="white",wraplength=1200, justify="center")
     footer.grid(row=3, column=0, columnspan=5, sticky="ew", pady=30)
 
     # Update loop
