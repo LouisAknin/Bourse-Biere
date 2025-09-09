@@ -1,0 +1,25 @@
+# --- Secrets et env ---
+.env
+*.env
+*credentials*.json
+decoded-pilot-359707-f029f584340a.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# --- Logs ---
+*.log
+
+# --- OS (Mac) ---
+.DS_Store
+
+# --- VS Code / IDE ---
+.vscode/
+.idea/
+
+# --- Jupyter / notebooks (si tu en fais) ---
+.ipynb_checkpoints/
